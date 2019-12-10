@@ -1,0 +1,16 @@
+{
+  "short_name": "App",
+  "name": "Web App",
+  "icons": [
+    {
+      "src": "/public/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?pwa",
+  "background_color": "#33cefa",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#33cefa"
+}

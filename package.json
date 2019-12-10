@@ -10,5 +10,8 @@
   "devDependencies": {
     "node-sass": "4.13.0",
     "parcel-bundler": "1.12.4"
+  },
+  "dependencies": {
+    "parcel-plugin-serviceworker": "https://github.com/ground-hogs/parcel-plugin-serviceworker"
   }
 }
