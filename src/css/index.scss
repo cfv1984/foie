@@ -2,6 +2,11 @@ html,
 body {
   width: 100vw;
   height: 100vh;
+}
+
+html,
+body,
+h1 {
   margin: 0;
   padding: 0;
 }
@@ -13,16 +18,12 @@ body {
 }
 
 h1 {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
   font-family: sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  letter-spacing: -0.15ex;
   animation: jump 1s infinite;
 }
 
