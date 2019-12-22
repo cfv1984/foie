@@ -25,6 +25,12 @@ h1 {
   transform: translate(-50%, -50%);
   letter-spacing: -0.15ex;
   animation: jump 1s infinite;
+  // oh yes web development is SOOOO fun sometimes
+  padding: 1px;
+  -webkit-backface-visibility:hidden;
+  backface-visibility:hidden;
+  -webkit-background-clip:content-box;
+  background-clip:content-box;
 }
 
 @keyframes jump {
